@@ -17,7 +17,7 @@ class Weather {
     return responseData.current_observation;
   }
 
-  // Chage weather lcoation
+  // Change weather lcoation
   changeLocation(city, state) {
     this.city = city;
     this.state = state;
